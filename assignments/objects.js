@@ -15,40 +15,44 @@ const example = {
   name: "Example",
   email: "examples@you.edu",
   gender: "F",
+  logName: function(){
+    console.log(this.name);
+    logName();
+  }
 }
 
 // Write your intern objects here:
 
 const Mitzi = {
-  id: 0,
+  id: 1,
   name: "Mitzi",
   email: "mmelloy0@psu.edu",
   gender: "F"
 }
 
 const Kennan = {
-  id: 1,
+  id: 2,
   name: "Mitzi",
   email: "kdiben1@tinypic.com",
   gender: "M"
 }
 
 const Keven = {
-  id: 2,
+  id: 3,
   name: "Keven",
   email: "kmummery2@wikimedia.org",
   gender: "M"
 }
 
 const Gannie = {
-  id: 3,
+  id: 4,
   name: "Gannie",
   email: "gmartinson3@illinois.edu",
   gender: "M"
 }
 
 const Antonietta = {
-  id: 4,
+  id: 5,
   name: "Antonietta",
   email: "adaine5@samsung.com",
   gender: "F"
@@ -59,14 +63,19 @@ const Antonietta = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(Mitzi.name);
 
 // Kennan's ID
+console.log(Kennan.id);
 
 // Keven's email
+console.log(Keven.email);
 
 // Gannie's name
+console.log(Gannie.name);
 
 // Antonietta's Gender
+console.log(Antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
